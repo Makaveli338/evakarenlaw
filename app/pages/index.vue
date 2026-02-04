@@ -447,9 +447,10 @@
             </button>
           </div>
 
-          <div class="overflow-y-scroll max-h-[70vh]">
-          <div class="p-6 h-225 overflow-y-auto text-sm text-muted bg-[url('/Privacy.png')] bg-cover bg-center bg-no-repeat">             
-          </div>
+          <div class="overflow-y-scroll max-h-[70vh] min-w-full">
+            <div
+              class="p-6 h-100 sm:h-225 overflow-y-auto text-sm text-muted bg-[url('/Privacy.png')]   bg-contain md:bg-cover bg-center bg-no-repeat min-w-full"
+            ></div>
           </div>
 
           <div class="p-6 border-t border-border flex justify-end gap-4">
